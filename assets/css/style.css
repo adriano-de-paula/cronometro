@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg, #fea858, #ed765e);
+}
+
+#cronometro {
+    background-color: #5a5a5a;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+#tempo {
+    background-color: #5a5a5a;
+    height: 250px;
+    width: 250px;
+    border: 3px solid #fea858;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 30px;
+    color: #f1f1f1;
+    margin-bottom: 1.5rem;
+    padding: 4rem;
+}
+
+#botoes {
+    display: flex;
+    gap: 0.5rem;
+}
+
+#botoes button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    padding: 0.6rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #f1f1f1;
+    color: #5a5a5a;
+    cursor: pointer;
+    transition: background-color 0.2% ease-in;
+}
+
+#botoes button:hover {
+   background-color: #ffba79;
+}
+
+#lista-tempo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    color: #f1f1f1;
+}
+
+#lista-tempo p:first-child {
+    margin-top: 1.5rem;
+}
+
